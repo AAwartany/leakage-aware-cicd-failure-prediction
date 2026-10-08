@@ -1,0 +1,9 @@
+{
+  "bootstrap_samples_requested": 5000,
+  "seed": 42,
+  "unit": "commit_sha",
+  "e2_rows": 36036,
+  "e2_commits": 5311,
+  "failures": 1610,
+  "method": "paired commit-cluster bootstrap, percentile CI; centered two-sided bootstrap p; Holm across eight planned comparisons"
+}
