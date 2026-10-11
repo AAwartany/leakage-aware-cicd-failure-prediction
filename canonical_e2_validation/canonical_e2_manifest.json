@@ -1,0 +1,41 @@
+{
+  "input_file": "C:\\Users\\a_awa\\Desktop\\PR---\\3. AI-Driven CICD Pipeline Failure Prediction\\CCICD_Paper3\\cicd_prepared\\cicd_clean_model_dataset.csv",
+  "input_sha256": "0b28d40b0be14e7170a71fa479e3d87e441f54e45f5642ae5d283e5bb05d610e",
+  "boundary": "2026-04-01 11:41:59+00:00",
+  "excluded_boundary_spanning_commits": 25,
+  "train_rows": 105814,
+  "test_rows": 36036,
+  "train_commits": 21219,
+  "test_commits": 5311,
+  "train_failures": 6683,
+  "test_failures": 1610,
+  "train_run_id_order_sha256": "bfac8ee85221256347bef3e5d3528c0ee257937900372f60606bcefa8fbe1688",
+  "test_run_id_order_sha256": "5fc294c068ee31c7b1a435fe8d48d89e3521adff8e450da085c3f14de4d29867",
+  "features_in_order": [
+    "msg_len",
+    "num_parents",
+    "additions",
+    "deletions",
+    "files_modified",
+    "time_since_last_commit",
+    "commit_to_pipeline_delay",
+    "trigger_hour",
+    "trigger_weekday",
+    "is_merge_clean",
+    "is_primary_branch",
+    "trigger_weekend",
+    "event"
+  ],
+  "feature_spec_sha256": "efd7011afacf13c1cff2ce47f10fbbf60ee6955ad103afb10a925feadbb11108",
+  "random_state": 42,
+  "versions": {
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1"
+  }
+}
